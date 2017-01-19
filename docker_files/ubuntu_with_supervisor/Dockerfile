@@ -10,4 +10,4 @@ ENV LANGUAGE en_US.UTF-8
 ENV LC_ALL en_US.UTF-8
 ADD ./vimrc /root/.vimrc
 ADD ./services.conf  /etc/supervisor/conf.d/services.conf
-Cmd ["/usr/bin/supervisord", "-n"]
+CMD ["/usr/bin/supervisord", "-n"]
